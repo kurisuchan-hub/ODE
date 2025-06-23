@@ -4,22 +4,25 @@
   <meta charset="UTF-8">
   <title>Worm Detector - PCARE</title>
   <style>
-    body {
-      font-family: worksans;
-      text-align: center;
-      background: #f0f4f8;
-    }
-    video, canvas {
-      width: 90%;
-      max-width: 500px;
-      margin-top: 10px;
-      border-radius: 12px;
-    }
-    #status {
-      margin-top: 10px;
-      font-weight: bold;
-    }
-  </style>
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f0f4f8;
+  }
+  video, canvas {
+    width: 100vw;    /* fill full screen width */
+    height: auto;
+    max-height: 90vh; /* keep some space for status text */
+    margin: 0;
+    border-radius: 0; /* remove corners for full width */
+  }
+  #status {
+    margin: 10px;
+    font-weight: bold;
+  }
+</style>
+
 </head>
 <body>
 

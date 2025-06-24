@@ -5,7 +5,7 @@ const status = document.getElementById("status");
 
 // Roboflow Model Info
 const ROBOFLOW_API_KEY = "rf_3kDDGXRD3rOvUfDlbfiQtpeexT32";  // <-- your key
-const ROBOFLOW_PROJECT = "odesuperworm-detection";       // <-- your Roboflow project
+const ROBOFLOW_PROJECT = "superworms-r7zkm";       // <-- your Roboflow project
 const ROBOFLOW_VERSION = 1;
 const API_URL = `https://detect.roboflow.com/${ROBOFLOW_PROJECT}/${ROBOFLOW_VERSION}?api_key=${ROBOFLOW_API_KEY}`;
 
